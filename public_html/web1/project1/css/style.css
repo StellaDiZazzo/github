@@ -1,0 +1,172 @@
+/* basic reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    line-height: 44px;
+    color: #3e446e;
+    background-color: #00ABF5;
+    text-align: center;
+   
+    background-image: url();
+
+}
+header {
+   width: 100%; 
+   height: 300px;
+   background-color: #F20587;
+   
+   padding: 20px;
+   
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 25px;
+
+}
+nav a{ 
+   
+    text-decoration: none;
+    color: #3e446e;
+}
+
+#banner { 
+    background-image: url("../img/newbanner.png");
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+    background-position: center top;
+
+}
+
+main, footer {
+    padding: 20px;
+}
+main article p { 
+
+   /* max-width: 60ch;*/
+    max-width: 1000px;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax (300px, 1fr));
+    
+    
+}
+main { 
+    background-color: #00ABF5;
+    background: linear-gradient(#00ABF5,  #4305F2);
+    
+    
+  
+}
+footer { 
+    background-color: #00ABF5;
+}
+
+main article img { 
+    width: 100%;
+    height: auto;
+}
+
+.fancybutton { 
+    background-color: #3e446e;
+    padding: 20px 35px;
+    border-radius: 10px; 
+    box-shadow: 2px 4px 10px palevioletred
+    
+}
+.fancybutton:hover { 
+    background-color: darkred;
+    color: coral;
+
+}
+
+/*styling the forms*/ 
+input[type=text],
+input[type=password]
+input[type=submit]
+textarea { 
+    display: block;
+    padding: 10px; 
+    border: 1px plum; 
+    margin-bottom: 16px;
+    border-radius: 10px;
+    width: 260px;
+}
+
+.gallery { 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(277px, 1fr));
+    gap: 41px;
+}
+
+p{
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-style: italic;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    
+    
+}
+#Interests { 
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+    height: auto;
+    background-color: #F29F05;
+    
+    box-shadow: 0px 50px 0px #F20587;
+    border-radius: 50px;
+    box-shadow: 100px;
+    
+    
+   
+    
+    
+    
+}
+
+#About p { 
+   
+    position: relative; margin: 0 auto;
+    
+
+}
+
+#Contact p { 
+    text-align: center;
+    position: relative; margin: 0 auto;
+    color: #1dd5ff;
+}
+
+
+/*nav {
+position: relative;
+* right: 10px*
+left: calc(100%);
+top: 20px;
+font-size: 22px;
+color: #F29F05;
+}*/ 
+
+@media screen and (max-width: 660px){
+    nav{ 
+        left: 0px;
+    }
+    
+}

@@ -1,0 +1,175 @@
+/*- embed as SVG with the <img ...> tag
+- style the page with CSS
+- add a headline with the character's name
+- add a small description about the character idea
+- add a sketch and one sentence about how the character was drawn
+- link to project 3 with a cool button, like: "Play Game!"
+
+-optional: Google fonts and JS!/*
+/* basic reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body { 
+   
+ 
+    line-height: 44px;
+    color: #3e446e;
+    background-color: #00ABF5;
+    text-align: center;
+   
+    font-family: "Honk", system-ui; 
+    perspective: 350px;
+    padding-top: 66px;
+    font-size: 36px;
+    
+ 
+}
+h1 {
+    font-size: 55px;
+}
+h2 { 
+    font-size: 48px;
+}
+header {
+   width: 100%; 
+   height: 00px;
+   background-color: #F20587;
+   
+   padding: 20px;
+   
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 25px;
+
+}
+nav a{ 
+   
+    text-decoration: none;
+    color: #3e446e;
+}
+
+#banner { 
+  
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+    background-position: center top;
+
+}
+
+main, footer {
+    padding: 20px;
+}
+main article p { 
+
+   /* max-width: 60ch;*/
+    max-width: 1000px;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax (300px, 1fr));
+    
+    
+}
+main { 
+    background-color: #00ABF5;
+    background: linear-gradient(#00ABF5,  #4305F2);
+    
+    
+  
+}
+footer { 
+    background-color: #00ABF5;
+}
+
+main article img { 
+    width: 100%;
+    height: auto;
+}
+
+.fancybutton { 
+    background-color: #3e446e;
+    padding: 20px 35px;
+    border-radius: 10px; 
+    box-shadow: 2px 4px 10px palevioletred
+    
+}
+.fancybutton:hover { 
+    background-color: darkred;
+    color: coral;
+
+}
+
+/*styling the forms*/ 
+input[type=text],
+input[type=password]
+input[type=submit]
+textarea { 
+    display: block;
+    padding: 10px; 
+    border: 1px plum; 
+    margin-bottom: 16px;
+    border-radius: 10px;
+    width: 260px;
+}
+
+
+
+
+/*nav {
+position: relative;
+* right: 10px*
+left: calc(100%);
+top: 20px;
+font-size: 22px;
+color: #F29F05;
+}*/ 
+
+@media screen and (max-width: 660px){
+    nav{ 
+        left: 0px;
+    }
+    
+}
+
+#panel{ 
+    align-content: center;
+    position: absolute;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: #F20587;
+    transition: all 0.5s ease-in;
+    transform-style: preserve-3d;
+
+
+}
+.slide-up { 
+    transform: translateY(-90vh);
+}
+
+#game { 
+    padding: 10px 30px;
+    font-size: 2.4em;
+    background: pink;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 10px 10px 20px blue;
+    cursor: pointer;
+}
+#game:hover { 
+    background-color: aqua;
+   
+}

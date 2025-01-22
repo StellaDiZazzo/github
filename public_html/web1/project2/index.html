@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2 / My Character</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk:MORF,SHLN@0,0&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+        <br>
+    <h2>This is my awesome character</h2>
+    <h1>Roxie the Streetpainter</h1>
+    <p> Roxie is an anthropomorphic fucshia pink tiger who loves to create graffitis in the streets-
+        hence her name.
+    </p>
+   
+    <img src="img/webcharacter.png" alt="">
+    
+    
+    <button id="game" onclick="top.location.href='../project3/index.html'">Play game!</button>
+</section>
+    <div id="panel">Click to open</div>
+    <script> 
+        const panel = document.getElementById("panel"); 
+        panel.onclick=function(){ 
+            this.classList.toggle("slide-up")
+        }
+    </script>
+</body>
+</html>

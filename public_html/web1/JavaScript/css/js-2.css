@@ -1,0 +1,47 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body { 
+    background: rgb(29, 0, 251);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#pacman {
+    
+        width: 0px;
+        height: 0px;
+        border-right: 60px solid transparent;
+        border-top: 60px solid pink;
+        border-left: 60px solid pink;
+        border-bottom: 60px solid pink;
+        border-top-left-radius: 60px;
+        border-top-right-radius: 60px;
+        border-bottom-left-radius: 60px;
+        border-bottom-right-radius: 60px;
+        transition: all 0.4 ease-in;
+      }
+
+      #pacman.change-me{
+        border-top: 60px yellow solid; 
+        border-left: 60px yellow solid;
+        border-bottom: 60px yellow solid;
+        transform: translateX(300px) scale(2.4) rotate(33deg) skewX(2deg);
+      }
+    
+
+      #pentagon.change-me:before{ 
+        border-color:  blue;
+       
+        /*translate:300px*/  
+        /*left:300px*/
+    
+      }
+    /*.change-me{ 
+        border-top: 60px blue transparent !important;
+        border-left: 60px blue transparent !important;
+        border-bottom: 60px blue transparent !important;  
+    } */ 
+

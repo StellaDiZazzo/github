@@ -1,0 +1,26 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+
+img{ 
+    width: 100;
+}
+#gallery{ 
+    background-color: rgb(180 180 180/ .75 green, blue);
+    display: grid;
+    grid-template-columns: fr 1fr 1fr;
+    gap: 1.44rem;
+}
+
+@media screen and (min-width: 450px){
+    #gallery{ 
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (min-width: 900px){
+    #gallery{ 
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
