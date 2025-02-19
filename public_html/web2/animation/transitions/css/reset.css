@@ -1,4 +1,4 @@
-/* basic reset */
+
 *{
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 22px;
     line-height: 44px;
-    color: #3e446e;
+    color: #bb00ff;
     background-color: rgb(255, 183, 156);
     background-image: url();
 }
@@ -36,7 +36,7 @@ main, footer {
 }
 main article p { 
 
-   /* max-width: 60ch;*/
+   
     max-width: 1000px;
     display: grid;
     gap: 1rem;
@@ -67,7 +67,7 @@ main article img {
 
 }
 
-/*styling the forms*/ 
+
 input[type=text],
 input[type=password]
 input[type=submit]
@@ -79,3 +79,4 @@ textarea {
     border-radius: 10px;
     width: 260px;
 }
+    
