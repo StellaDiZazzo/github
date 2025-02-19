@@ -13,17 +13,11 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 22px;
     line-height: 44px;
-    color: #bb00ff;
+    color: #0044ff;
     background-color: rgb(255, 183, 156);
     background-image: url();
 }
-header {
-   width: 100%; 
-   height: 150px;
-   background-color: #fcab20;
-   padding: 20px;
-   position:fixed;
-}
+
 
 nav ul li {
     display: inline-block;
@@ -43,10 +37,10 @@ main article p {
     grid-template-columns: repeat(auto-fill, minmax (300px, 1fr));
 }
 main { 
-    background-color: #f56438;
+    background-color: #ffa25c;
 }
 footer { 
-    background-color: #e7363c;
+    background-color: #ff7176;
 }
 
 main article img { 
@@ -55,10 +49,10 @@ main article img {
 }
 
 .fancybutton { 
-    background-color: #3e446e;
+    background-color: #363c65;
     padding: 20px 35px;
     border-radius: 10px; 
-    box-shadow: 2px 4px 10px palevioletred
+    box-shadow: 2px 4px 10px rgb(231, 135, 167)
     
 }
 .fancybutton:hover { 

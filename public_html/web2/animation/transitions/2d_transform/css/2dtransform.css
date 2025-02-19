@@ -1,0 +1,20 @@
+
+#sonicwidget, #tailswidget, #knuxwidget, #shadowwidget{ 
+    transition: transform 0.5s;
+}
+#sonicwidget:hover{ 
+transform: rotate(25deg);
+}
+
+#tailswidget:hover{ 
+    transform: scale(1.5);
+}
+
+#shadowwidget:hover{ 
+transform: translateX(200px);
+} 
+
+ /* this is another way of translate w/js */
+.move-right{ 
+    transform: translateX(200px);
+}
