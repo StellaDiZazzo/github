@@ -1,0 +1,15 @@
+#platform{
+    width: 200px;
+    height: 350px;
+    transform: translateX(100px) rotateX(55deg) rotateZ(45deg) rotateY(45deg);
+    background-color: rgba(255, 65, 65, 0.95);
+    border-radius: 16px;
+    box-shadow: 1px 2px 10px rgba(255, 65, 65, 0.95), 24px 24px 24px rgba(255, 65, 25, 0.25);
+    transition: 1s ease-in-out transform, 0.5s ease-in-out box-shadow;
+  
+}
+#platform:hover{
+    transform: translateX(100px) translateY(-24px) rotateX(45deg) rotateZ(35deg) rotateY(35deg);
+box-shadow: 1px 2px 10px rgba(204, 65, 205, 0.95), 70px 70px 24px rgba(255, 65, 25, 0.25) ;
+}
+
