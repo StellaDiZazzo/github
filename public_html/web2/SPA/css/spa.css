@@ -13,17 +13,28 @@ header {
     font-family: "Jersey 10", serif;
     font-size: 35px;
     padding: 20px;
-    background-image: url("../img/sonicbanner.svg");
+    background-image: url("../img/sonicbanner2.png");
     min-height: 100%;
+
     
  }
 
+ p{
+  font-size: 25px;
+ font-family: "Jersey 10", serif;
+  text-align: center
+  
+ 
+  
+  
+}
  body{ 
    
-    font-size: 22px;
+    font-size: 20px;
     line-height: 44px;
-    color: #1C69DD;
-    text-shadow: 3px 3px #fd6abd;
+    color: #EF99CA;
+  
+   
     background-color: #FDD116;
     text-align: center;
     font-family: "Faster One", serif;
@@ -40,10 +51,69 @@ header {
 }
 nav a{ 
    
-    text-decoration:underline;
-    color: #ca000a;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #0066ff;
+    border-radius: 40%;
+}
+#soniclogo{ 
+
+  min-width: auto;
+}
+#logo{ 
+  background-image: url("../img/soniclogo.svg");
+  width: 100%;
+  height:100%;
+  background-size: cover;
+  background-position: center top;
 }
 
+#Beginnings{ 
+color: #E4252F;
+background-color: #99d1ef;
+border-radius: 100px;
+}
+
+#Sonic{ 
+  color: #0066ff;
+  background-color: #EF99CA;
+  border-radius: 100px;
+}
+
+#Characters{ 
+  color: #E4252F;
+  background-color: #99d1ef;
+  border-radius: 100px;
+}
+#Favourites{ 
+  color: #0066ff;
+  background-color: #EF99CA;
+  border-radius: 100px;
+}
+
+#Facts{ 
+  color: #E4252F;
+  background-color: #99d1ef;
+  border-radius: 100px;
+}
+
+#Gallery{ 
+  color: #0066ff;
+  background-color: #EF99CA;
+  border-radius: 100px;
+}
+
+
+.gallery { 
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(277px, 1fr));
+  gap: 41px;
+}
+
+#pixelgifs{ 
+  height: 100px;
+  position: relative;
+}
 
 /*fonts*/
 .racing-sans-one-regular {

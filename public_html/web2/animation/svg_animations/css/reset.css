@@ -1,0 +1,76 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    line-height: 44px;
+    color: #0044ff;
+    background-color: rgb(255, 183, 156);
+    background-image: url();
+}
+
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+main, footer {
+    padding: 20px;
+}
+main article p { 
+
+   
+    max-width: 1000px;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax (300px, 1fr));
+}
+main { 
+    background-color: #ffa25c;
+}
+footer { 
+    background-color: #ff7176;
+}
+
+main article img { 
+    width: 100%;
+    height: auto;
+}
+
+.fancybutton { 
+    background-color: #363c65;
+    padding: 20px 35px;
+    border-radius: 10px; 
+    box-shadow: 2px 4px 10px rgb(231, 135, 167)
+    
+}
+.fancybutton:hover { 
+    background-color: darkred;
+    color: coral;
+
+}
+
+
+input[type=text],
+input[type=password]
+input[type=submit]
+textarea { 
+    display: block;
+    padding: 10px; 
+    border: 1px plum; 
+    margin-bottom: 16px;
+    border-radius: 10px;
+    width: 260px;
+}
+    

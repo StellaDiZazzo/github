@@ -1,0 +1,49 @@
+
+#sonicrun{
+    animation-name: runningSonic; 
+     animation-duration: 6s; 
+     animation-fill-mode: forwards;
+     animation-iteration-count: infinite;
+     animation-delay: 0.5s;
+     
+}
+@keyframes runningSonic {
+    0% {
+        transform: translateX(0px);
+
+    }
+    48% {
+        transform: translateX(600px);
+    }
+    50% {
+        transform: rotateY(180deg) translate3d(-600px);
+    }
+
+    98% {
+        transform: translateX(0px) rotateY(180deg);
+    }
+
+    100% {
+        transform: translateX(0px) rotateY(180deg);
+    }
+  
+}
+
+article{
+    position: relative;
+}
+
+article section{
+    position: absolute;
+    top: 2.40rem;
+    width: 500px;
+    left: -500px;
+    padding: 0 1em 0.5em 0.5em;
+    background-color:blue;
+    padding: 0.5em;
+}
+
+
+.visible{ 
+    transform: translateX(700px);
+}

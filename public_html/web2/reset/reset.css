@@ -1,109 +1,77 @@
-/* simple reset*/
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+  line-height: 44px;
+  color: #0044ff;
+  background-color: rgb(255, 183, 156);
+  background-image: url();
+}
+
+
+nav ul li {
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+main, footer {
+  padding: 20px;
+}
+main article p { 
+
+ 
+  max-width: 1000px;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax (300px, 1fr));
+}
+main { 
+  background-color: #ffa25c;
+}
+footer { 
+  background-color: #ff7176;
+}
+
+main article img { 
+  width: 100%;
+  height: auto;
+}
+
+.fancybutton { 
+  background-color: #363c65;
+  padding: 20px 35px;
+  border-radius: 10px; 
+  box-shadow: 2px 4px 10px rgb(231, 135, 167)
   
-  html {
-    font-size: 1.44rem;
-    line-height: 1.44;
-    height: 100%;
-  }
-  h1 {
-    font-size: 4.209rem;
-  }
-  h2 {
-    font-size: 3.157rem;
-  }
-  h3 {
-    font-size: 1.777rem;
-  }
-  h4 {
-    font-size: 1.777rem;
-  }
-  pre,
-  code {
-    font-size: 1.2rem;
-    font-family: Consolas, "Andale Mono", "Lucida Console", "DejaVu Sans Mono",
-      "Courier New", monospace;
-    color: rgba(255, 255, 255, 0.75);
-    white-space: pre-wrap;
-  }
-  small {
-    font-size: 0.777rem;
-  }
+}
+.fancybutton:hover { 
+  background-color: darkred;
+  color: coral;
+
+}
+
+
+input[type=text],
+input[type=password]
+input[type=submit]
+textarea { 
+  display: block;
+  padding: 10px; 
+  border: 1px plum; 
+  margin-bottom: 16px;
+  border-radius: 10px;
+  width: 260px;
+}
   
-  strong {
-    color: rgba(255, 162, 87, 1);
-  }
-  
-  ul {
-    margin: 0 1.44em;
-  }
-  
-  /* end of reset */
-  
-  /* basic styling */
-  body {
-    min-height: 110vh;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: rgba(240, 240, 240, 1);
-    background-color: rgba(32, 32, 32, 1);
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4 {
-    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text",
-      "Times New Roman", serif;
-    color: rgba(224, 224, 224, 1);
-  }
-  
-  /* anchor tag pseudo elements */
-  a:link,
-  a:visited {
-    color: rgba(151, 193, 234, 0.85);
-    /*transition: color 0.5s;*/
-  }
-  
-  a:hover,
-  a:focus {
-    color: rgba(236, 121, 66, 1);
-    text-decoration: none;
-    /*background-color: rgba(240, 240, 240, 0.15);*/
-  }
-  a:active {
-    color: rgba(151, 193, 234, 0.85);
-  }
-  
-  /* end of basic styling */
-  
-  header {
-    position: fixed;
-    top: 0;
-    right: 0;
-    padding: 0.5em;
-    width: 100%;
-    height: 75px;
-    display: grid;
-    grid-template-columns: 1fr auto;
-    background-color: rgba(16, 16, 16, 1);
-  }
-  
-  header h1 {
-    font-size: 1.44em;
-    display: inline-block;
-  }
-  header nav a {
-    padding: 0.5em;
-    line-height: 1.44rem;
-  }
-  
-  main {
-    padding: 0.5em;
-    margin-top: 125px;
-  }
-  
+

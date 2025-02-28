@@ -1,0 +1,50 @@
+header{
+    overflow: hidden;
+  
+  }
+  header svg{
+    width: 200vw;
+    
+  }
+  
+  header g{
+    opacity: 0.75;
+  }
+  
+  
+  .move-right{
+    transform: translateX(70vw);
+  }
+
+  #wave1{
+    animation: wavemaker 15s ease-in-out infinite alternate-reverse;
+    width: 200%;
+  
+  }
+  
+  #wave2{
+    animation: wavemaker 12s ease-in-out infinite alternate;
+    width: 200%;
+    
+  }
+  
+  #wave3{
+    animation: wavemaker 10s ease-in-out infinite alternate-reverse;
+    width: 200%;
+  }
+  
+  #wave4{
+    animation: wavemaker 12s ease-in-out infinite alternate;
+    width: 200%;
+  }
+  
+  @keyframes wavemaker {  
+    0% {
+      transform: translateX(-4vw);
+    }
+    100% {
+      transform: translateX(-90vw);
+    }
+    
+  }
+  
