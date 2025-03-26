@@ -9,12 +9,12 @@ html{
 header {
     width: 100%; 
     height: 100%;
-    background-color: #99d1ef;
+    background-color: #0f1041;
     font-family: "Jersey 10", serif;
     font-size: 35px;
     padding: 20px;
  
-   background-image: url("../img/sonicbanner3.jpg");
+   /*background-image: url("../img/sonicbanner3.jpg");*/
   
     min-height: 100%;
 
@@ -22,7 +22,7 @@ header {
  }
 
  p{
-  font-size: 25px;
+  font-size: 35px;
  font-family: "Jersey 10", serif;
   text-align:center;
 
@@ -30,7 +30,7 @@ header {
 
  body{ 
    
-    font-size: 20px;
+    font-size: 30px;
     line-height: 44px;
     color: #E4252F;
   
@@ -44,6 +44,10 @@ header {
 
  h4{
   font-family: "Racing Sans One", serif;
+  font-size: 35px;
+  color:#E4252F;
+  text-decoration:underline;
+  
 } 
 h2{
 text-decoration:underline;
@@ -51,6 +55,7 @@ text-decoration:underline;
 
 h5{
   font-family: "Racing Sans One", serif;
+  font-size:35px;
   } 
   
 
@@ -66,9 +71,11 @@ h5{
 nav a{ 
    
   
-    color: #ffffff;
-  
-    border-radius: 40%;
+    color: #ffd325;
+
+
+    border-radius: 0%;
+    text-decoration: none;
 }
 #soniclogo{ 
 
@@ -118,15 +125,76 @@ border-radius: 100px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(277px, 1fr));
   gap: 41px;
+  
 }
 
-#pixelgifs{ 
+.pixelgifs{ 
   height: 100px;
   position: relative;
   
 }
+.sonicpngs{ 
+  height: 300px;
+ 
+}
+
+.funfacts{ 
+  height: 300px;
+  position: relative;
+  border: 4px solid #c908ff;
+  border-radius: 15%;
+  
+}
 
 
+.sonicpics{ 
+  height: 350px; 
+  border: 4px solid #085eff;
+  border-radius: 15%;
+
+}
+.tailspics{ 
+  height: 350px; 
+  border: 4px solid #ffd608;
+  border-radius: 15%;
+}
+.knuxpics{ 
+  height: 350px; 
+  border: 4px solid #ff0808;
+  border-radius: 15%;
+}
+.amyandrougepics{ 
+  height: 350px; 
+  border: 4px solid #f300e3;
+  border-radius: 15%;
+}
+.shadowpics{ 
+  height: 350px; 
+  border: 4px solid #000000;
+  border-radius: 15%; 
+}
+.silverpics{ 
+  height: 350px; 
+  border: 4px solid #ffffff;
+  border-radius: 15%;
+}
+.blazepics{ 
+  height: 350px; 
+  border: 4px solid #bd08ff;
+  border-radius: 15%;
+}
+
+
+
+
+.myart{ 
+  position: relative;
+}
+.beginnings{ 
+  height: 350px; 
+  border: 4px solid #085eff;
+  border-radius: 15%;
+}
 
 /*fonts*/
 .racing-sans-one-regular {

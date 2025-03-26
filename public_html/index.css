@@ -51,13 +51,12 @@ nav ul li {
         box-shadow: 0px 50px 0px #FF7043;
         border-radius: 50px;
         box-shadow: 100px;
-        
-        
-       
-        
-        
+           
         
     }
+    .images{ 
+        height: 250px;
+    }   
     
     #About p { 
        

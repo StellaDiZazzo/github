@@ -1,11 +1,132 @@
-#comingsoon{ 
+/*.beginnings{ 
+    transition: color 1s;
+   opacity: 0.25;
+  
+}
+.beginnings:hover{
+    opacity: 1;
+    transition: opacity 600ms;
+}   
+*/
+
+.beginnings {
+    height: 350px; 
+  border: 4px solid #085eff;
+  border-radius: 15%;
+}
+
+.beginnings:hover {
+    transform: scale(110%);
+    border: 15px solid #d90000;
+    transition:0.5s;
+}
+
+
+
+.sonicpngs{ 
     transition: transform 1s;
    
   
 }
-#comingsoon:hover{
-    transform: rotate(15deg);
+.sonicpngs:hover{
+    transform: scale(1.2);
 }   
 
 
 
+
+
+.sonicpics, .tailspics, .knuxpics, .amyandrougepics, .silverpics, .blazepics, .shadowpics{ 
+    transition: color 1s;
+    opacity: 1;
+}
+.sonicpics:hover{ 
+    opacity: 0.25;
+    transition: opacity 600ms;
+
+
+}
+
+.tailspics:hover{ 
+    opacity: 0.25;
+    transition: opacity 600ms;
+
+
+}
+.knuxpics:hover{ 
+    opacity: 0.25;
+    transition: opacity 600ms;
+
+
+}
+
+.amyandrougepics:hover{ 
+    opacity: 0.25;
+    transition: opacity 600ms;
+
+
+}
+.silverpics:hover{ 
+    opacity: 0.25;
+    transition: opacity 600ms;
+
+
+}
+.blazepics:hover{ 
+    opacity: 0.25;
+    transition: opacity 600ms;
+
+
+}
+
+.shadowpics:hover{ 
+    opacity: 0.25;
+    transition: opacity 600ms;
+
+}
+
+
+.funfacts {
+    height: 350px; 
+  border: 4px solid #ff08ef;
+  border-radius: 15%;
+}
+
+.funfacts:hover {
+    transform: scale(100%);
+    border: 15px solid #0015fc;
+    transition:0.5s;
+}
+
+
+.myart{ 
+    transition: color 1s;
+    opacity: 0.25;
+}
+.myart:hover{ 
+    opacity: 1;
+    transition: opacity 600ms;
+
+}
+
+
+
+
+
+
+
+
+
+/* 
+a:link {
+    transition: color 1s;
+}
+img{ 
+    opacity: 0.25;
+    transition: opacity 500ms;
+}
+
+img:hover{
+    opacity: 1; 
+
+} */
