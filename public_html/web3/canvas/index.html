@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Petit Jeu Canvas</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/panel.css">
+	</head>
+	<body>
+	  <div id="panel"></div>
+		<nav><!--Les flèches touch pour mobile-->
+			<p id="uArrow" class="arrow"></p>
+			<p id="dArrow" class="arrow"></p>
+			<p id="lArrow" class="arrow"></p>
+			<p id="rArrow" class="arrow"></p>
+		</nav>
+		   <script> 
+        const panel = document.getElementById("panel"); 
+        panel.onclick=function(){ 
+            this.classList.toggle("slide-up")
+        }
+    </script>
+		<section id="gameBox">
+		<script src="js/game.js"></script>
+		</section>
+	</body>
+</html>

@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.7.1/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene keyboard-shortcuts="" screenshot="" xr-mode-ui="" device-orientation-permission-ui="">
+      <a-box position="-0.68856 0.5 -3" rotation="0 45 0" color="#4CC3D9" geometry="primitive: ring; radiusInner: 0.65; radiusOuter: 1.18; thetaLength: 360.75"></a-box>
+      <a-sphere position="0 1.05743 -5" radius="1.25" color="#EF2D5E" material="flatShading: true; metalness: 0.97; normalTextureOffset: 0 0.37; normalTextureRepeat: 1.9 1" geometry="primitive: torusKnot"></a-sphere>
+      <a-cylinder position="2.27941 0.75 -2.06599" radius="0.5" height="1.5" color="#FFC65D" material="blending: subtractive"></a-cylinder>
+      <a-plane position="2.53183 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+      <a-sphere position="6 0.82196 -5.78851" radius="1.25" color="#EF2D5E" material="blending: multiply; color: #e942ff" geometry="primitive: octahedron"></a-sphere>
+      <a-sky color="#ECECEC"></a-sky> 
+
+      <!--animations-->
+      <a-box position="-1 1.6 -5" animation="property: position; to: 1 8 -10; dur: 2000; easing: linear; loop: true" color="tomato"></a-box>
+<!--background and stuff-->
+  <a-assets>
+    <img id="water" src="../texture/images.jpg">
+  </a-assets>
+  <a-sky src="#water"></a-sky>
+
+
+  <a-assets>
+    <a-asset-item id="lilguy" src="./models/lilguyapply.gltf"></a-asset-item>
+  </a-assets>
+
+  <a-entity gltf-model="lilguy"></a-entity>
+
+
+    </a-scene>
+  </body>
+</html>

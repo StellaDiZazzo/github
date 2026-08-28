@@ -1,0 +1,80 @@
+
+.twelve-fourteen {
+    height: 350px; 
+  border: 1em solid #ff186d;
+  border-radius: 15%;
+}
+
+
+.twelve-fourteen:hover {
+    transform: scale(110%);
+    border: 0.5em solid #00789d;
+    transition:0.5s;
+}
+
+.earlydays{
+  transition: color 1s;
+  opacity: 0.25;
+  }
+  .earlydays:hover{
+    opacity: 1;
+    transition: opacity 600ms;
+    }
+
+    .kiddays{
+  transition: color 1s;
+  opacity: 0.25;
+  }
+  .kiddays:hover{
+    opacity: 1;
+    transition: opacity 600ms;
+    }
+
+
+
+    
+    
+
+.fourteen-fifteen {
+   
+  border: 1em solid #1878ff;
+  border-radius: 15%;
+  transition: color 1s;
+  opacity: 1
+}
+
+
+.fourteen-fifteen:hover {
+    transform: scale(100%);
+    border: 0.2em solid #06c5b8;
+    transition:0.5s;
+    opacity: 0.25;
+}
+
+
+
+.sixteen-seventeen {
+  
+  border: 0.5em solid #80008e;
+  border-radius: 15%;
+}
+
+
+.sixteen-seventeen:hover {
+    transform: scale(90%);
+    border: 0.3em solid #9d003a;
+    transition:0.5s;
+}
+
+.sonic-era {
+ 
+  border: 0.3em solid #ff186d;
+  border-radius: 15%;
+}
+
+
+.sonic-era:hover {
+    transform: scale(102%);
+    border: 0.4em solid #00789d;
+    transition:0.5s;
+}

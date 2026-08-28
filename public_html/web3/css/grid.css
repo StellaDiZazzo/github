@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#grille{ 
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+  background-color: #FFF4C8;
+  
+}
+
+#grille .case{ 
+    border: solid #E2532F 0.4em;
+    display: grid; 
+    place-items: center;
+    height: 15vmin;
+    width: 15vmin;    
+     font-size: 1.8em;
+   
+}
+
+body{
+    padding: 2em;
+    background-color: #E2532F;
+    background-image: url(../img/bg.png);
+    height: 140vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    }
+
+    #grille, .case, section{
+place-items: center;
+
+}
+
+h1{
+    text-align: center;
+    color: #274306;
+    font-family:"Eater", serif ;
+    padding-bottom: 0.5em;
+    border-width: 0.1em;
+     font-family: "DynaPuff", system-ui;
+    font-size: 2.4em;
+ 
+}  
+
+ h2{
+    text-align: center;
+    color: #274306;
+    font-family:"Eater", serif ;
+    background-color: #F2AB23;   
+}  
+
+h1, nav{ 
+    text-align: center;
+}
+
+
+#message{
+   
+     font-family: "DynaPuff", system-ui;
+     text-align: center;
+    font-size: 3em;
+    
+}
+
+
+  #Rejouer { display: inline-block;
+     padding: .3em; 
+     background: #F2AB23; 
+     color: #274306;
+     font-family: "DynaPuff", system-ui;
+      width: 10em; 
+       width: 10em;
+   height: 4em;
+   border-radius: 30em;
+   font-size: 20px;
+   color: #274306;
+    box-shadow: 4px 4px 4px rgba(1, 40, 12, 0.74); 
+     }
+
+  #Rejouer:hover { background: #FFF4C8;
+    font-family: "DynaPuff", system-ui;
+     color: #E2532F;
+      width: 10em;
+       height: 4.5em; }
+
+#X {
+    position: fixed;
+    left: 0;
+    display: block;
+    height: 150px;
+    width: auto;
+}
+
+#O {
+    position: fixed;
+    right: 0;
+    display: block;
+    height: 150px;
+    width: auto;
+}
+
+
+
